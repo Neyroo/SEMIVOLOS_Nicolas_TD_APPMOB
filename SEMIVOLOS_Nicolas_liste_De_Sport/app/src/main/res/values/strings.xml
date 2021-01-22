@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">SEMIVOLOS_Nicolas_liste_De_Sport</string>
+
+    //Main
+    <string name="retour">Retour</string>
+    <string name="titre_main">Veuillez séléctionner un sport :</string>
+    <string-array name="montableau">
+        <item>Basket</item>
+        <item>Football</item>
+        <item>HandBall</item>
+        <item>Natation</item>
+        <item>Bmx Race</item>
+    </string-array>
+
+    //Layout football
+    <string name="Desc_foot_img">Img_foot</string>
+    <string name="text_foot" translatable="false">Le football ou soccer est un sport collectif qui se joue avec un ballon sphérique entre deux équipes de onze joueurs.
+        Elles s opposent sur un terrain rectangulaire délimité, équipé de buts définis sur les largeurs opposées.
+        L objectif de chaque camp est de mettre le ballon dans le but adverse, sans utiliser les bras, et de le faire plus souvent que l autre équipe. </string>
+    <string name="text_foot2" translatable="false">Le football est un des sports les plus pratiqué en France. Beaucoup de d enfants admire les joueurs professionnel ce qui les pousse à faire toujours mieux.
+        L équipe de france a déjà obtenue plusieurs titres comme 2 coupe du monde, 2 coupe d europe ainsi qu une médaille d or au jeux olympiques.
+        </string>
+
+    //Layout handball
+    <string name="img_handball">Img handball</string>
+    <string name="text_hand" translatable="false">Le handball est un sport collectif joué à la main où deux équipes de sept joueurs s affrontent avec un ballon en respectant plusieurs règles,
+        sur un terrain rectangulaire de dimensions 40 m par 20 m, séparé en deux camps. </string>
+    <string name="text_hand2" translatable="false">Le handball est sport plutôt physique malgré les apparences. Il faut donc avoir une bonne conditions physiques pour bien encaisser les matchs. La france excèlle dans ce sport.
+        En effet, elle est 6 fois championne du monde, 3 fois championne d europe et à déjà remporter 2 fois la médaille d or au jeux olympiques. Beaucoup de personnes soutient donc cette équipe surnommés les experts".</string>
+
+    //Layout basketball
+    <string name="desc_img_basket">Desc img basket</string>
+    <string name="text_basket" translatable="false">Le basket-ball est un sport de balle et sport collectif opposant deux équipes de cinq joueurs sur un terrain rectangulaire.
+        L objectif de chaque équipe est de faire passer un ballon au sein d un arceau de 46 cm de diamètre, fixé à un panneau et placé à 3,05 m du sol : le panier.
+        Chaque panier inscrit rapporte deux points à son équipe, à l exception des tirs effectués au-delà de la ligne des trois points qui rapportent trois points et des lancers francs accordés à la suite d une faute qui rapportent un point.
+        L équipe avec le nombre de points le plus important remporte la partie. </string>
+    <string name="text_basket2" translatable="false">Le basket est lui aussi un des sports les plus pratiqué en France. Ne vous méprennez pas, il ne suffit pas d être grand pour y jouer, il y a une grosse part de technicité dans le jeu.
+        L équipe de France est très compétitives : elles a remporté 1 fois la coupe d europe et à disputer 29 fois la phase finale et à gagner 2 fois la médaille d argent au jeux olympiques. </string>
+
+
+    //Layout natation
+    <string name="desc_img_natation">Desc img natation</string>
+    <string name="text_natation" translatable="false">La natation sportive consiste à parcourir dans une piscine, le plus rapidement possible et dans un style codifié par la Fédération internationale de natation (FINA), une distance donnée, sans l aide d aucun accessoire.
+        La natation sportive peut être pratiquée à tout âge, mais au-delà de l âge de 25 ans les compétiteurs ont la possibilité de participer à des compétitions dites de « maîtres », indépendantes de celles de la natation sportive. </string>
+    <string name="text_natation2" translatable="false">Ce sport est un des meilleurs sport en termes de travail musculaire. En effet, tout les muscle du corps sont activé quand nous sommes dans l eau.
+        Ce sport permet aussi de faire un travail sur la respiration, à savoir mieux réguler et gérer son rythme de respiration.</string>
+
+    //Layout bmx race
+    <string name="desc_img_bmx">desc img bmx race</string>
+    <string name="text_bmxRace" translatable="false">Le BMX Race ou Bicross est une course entre huit concurrents qui doivent parcourir une piste de 340 à 400 m.
+        Cette piste a la particularité d être parsemée de bosses qui, soit se sautent, soit s enroulent par cabrage du vélo sur la roue arrière.
+        C est un sport acrobatique et spectaculaire demandant des qualités physiques telles que la vélocité, la puissance, l explosivité et l endurance.
+        Cette discipline, dans sa version supercross, est devenue pour la première fois une discipline olympique à l occasion des Jeux olympiques de Pékin en 2008. </string>
+    <string name="text_bmxRace2" translatable="false">Ce sport est assez spectaculaire du  aux nombreux sauts réalisés par les riders. En effet, le bmx etant très très leger, il suffit de peu de vitesse pour "voler".
+    </string>
+
+    //SplashScreen
+    <string name="desc_splash_screen">desc splash screen</string>
+    <string name="chargement">Chargement...</string>
+
+</resources>

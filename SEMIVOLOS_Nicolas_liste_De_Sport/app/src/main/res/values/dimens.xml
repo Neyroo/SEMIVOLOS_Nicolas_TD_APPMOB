@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="height_foot">250dp</dimen>
+    <dimen name="height_foot_et">200dp</dimen>
+    <dimen name="marginTop">15dp</dimen>
+    <dimen name="height_hand">200dp</dimen>
+    <dimen name="height_basket">200dp</dimen>
+    <dimen name="textsize_splash">30sp</dimen>
+    <dimen name="marginTop_splash">100dp</dimen>
+    <dimen name="Size_Et_splash">40dp</dimen>
+    <dimen name="Height_splash">300dp</dimen>
+    <dimen name="Height_list">450dp</dimen>
+    <dimen name="margin_main">150dp</dimen>
+    <dimen name="marginTop_main">50dp</dimen>
+    <dimen name="height_main">50dp</dimen>
+    <dimen name="textsize_main">25sp</dimen>
+    <dimen name="marginRight">10dp</dimen>
+    <dimen name="marginTop2">5dp</dimen>
+    <dimen name="tv_basket">100dp</dimen>
+    <dimen name="tv_bmx">80dp</dimen>
+</resources>

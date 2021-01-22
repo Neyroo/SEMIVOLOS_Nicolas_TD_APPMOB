@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SEMIVOLOS_Nicolas_liste_De_Sport</string>
+    <string name="retour">Retour</string>
+    <string name="Desc_foot_img">Img_foot</string>
+    <string name="chargement">Chargement</string>
+    <string name="desc_splash_screen">desc splash screen</string>
+    <string name="desc_img_bmx">desc img bmx race</string>
+    <string name="desc_img_natation">desc img natation</string>
+    <string name="desc_img_basket">desc img basket</string>
+    <string name="img_handball">img handball</string>
+    <string name="titre_main">Veuillez séléctionner un sport</string>
+</resources>

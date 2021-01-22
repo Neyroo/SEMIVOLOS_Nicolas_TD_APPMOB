@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "SEMIVOLOS_Nicolas_liste_De_Sport"
