@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Result_form"
+    android:background="@color/background">
+
+    <TextView
+        android:id="@+id/text_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ici_le_nom"
+        android:gravity="center_horizontal"
+        android:layout_marginLeft="@dimen/margin3"
+        android:layout_marginStart="@dimen/margin3"
+        android:layout_marginTop="@dimen/result_top"
+        android:textSize="@dimen/textSize"/>
+
+    <TextView
+        android:id="@+id/text_first_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_name"
+        android:text="@string/ici_le_pr_nom"
+        android:layout_marginLeft="@dimen/margin3"
+        android:layout_marginStart="@dimen/margin3"
+        android:layout_marginTop="@dimen/result_top"
+        android:textSize="@dimen/textSize"/>
+
+    <TextView
+        android:id="@+id/email_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_first_name"
+        android:text="@string/ici_l_email"
+        android:layout_marginLeft="@dimen/margin3"
+        android:layout_marginStart="@dimen/margin3"
+        android:layout_marginTop="@dimen/result_top"
+        android:textSize="@dimen/textSize"/>
+
+    <TextView
+        android:id="@+id/radioButton_res"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/email_text"
+        android:text="@string/ici_radio_button_res"
+        android:layout_marginLeft="@dimen/margin3"
+        android:layout_marginStart="@dimen/margin3"
+        android:layout_marginTop="@dimen/result_top"
+        android:textSize="@dimen/textSize"/>
+
+
+    <TextView
+        android:id="@+id/checkBox_res"
+        android:layout_below="@id/radioButton_res"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ici_checkbox_res_1"
+        android:layout_marginLeft="@dimen/margin3"
+        android:layout_marginStart="@dimen/margin3"
+        android:layout_marginTop="@dimen/result_top"
+        android:textSize="@dimen/textSize"/>
+
+    <TextView
+        android:id="@+id/checkBox2_res"
+        android:layout_below="@id/checkBox_res"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ici_checkbox_res_2"
+        android:layout_marginLeft="@dimen/margin3"
+        android:layout_marginStart="@dimen/margin3"
+        android:layout_marginTop="@dimen/result_top"
+        android:textSize="@dimen/textSize"/>
+
+    <TextView
+        android:id="@+id/checkBox3_res"
+        android:layout_below="@id/checkBox2_res"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ici_checkbox_res_3"
+        android:layout_marginLeft="@dimen/margin3"
+        android:layout_marginStart="@dimen/margin3"
+        android:layout_marginTop="@dimen/result_top"
+        android:textSize="@dimen/textSize"
+        />
+
+    <TextView
+        android:id="@+id/time_of_play_res"
+        android:layout_below="@id/checkBox3_res"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ici_tps_jeu"
+        android:layout_marginLeft="@dimen/margin3"
+        android:layout_marginStart="@dimen/margin3"
+        android:layout_marginTop="@dimen/result_top"
+        android:textSize="@dimen/textSize"/>
+
+
+</RelativeLayout>

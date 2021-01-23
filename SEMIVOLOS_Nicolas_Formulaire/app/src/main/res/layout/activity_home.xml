@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".Home">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="@dimen/width_and_height"
+        android:layout_height="@dimen/width_and_height"
+        android:layout_marginStart="@dimen/margin5"
+        android:layout_marginLeft="@dimen/margin5"
+        android:layout_marginTop="@dimen/margin6"
+        android:layout_marginEnd="@dimen/margin5"
+        android:layout_marginRight="@dimen/margin5"
+        android:layout_marginBottom="@dimen/margin4"
+        android:contentDescription="@string/pouce_en_l_air"
+        android:src="@drawable/pouce"
+        android:layout_below="@id/textview_first" />
+
+    <TextView
+        android:id="@+id/textview_first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_first_fragment"
+        android:textSize="@dimen/textSize"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="@dimen/margin5"
+        android:layout_marginLeft="@dimen/margin1"
+        android:layout_marginStart="@dimen/margin1" />
+
+    <Button
+        android:id="@+id/button_sign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_up"
+       android:layout_below="@id/imageView"
+        app:backgroundTint="@color/black"
+        android:layout_marginLeft="@dimen/btn_home"
+        android:layout_marginStart="@dimen/btn_home" />
+</RelativeLayout>

@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">SEMIVOLOS_Nicolas_Formulaire</string>
+
+    //SplashScreen
+    <string name="chargement">Chargement...</string>
+    <string name="desc_splash_screen">Desc splash screen</string>
+    <string name="hello_first_fragment" translatable="false">Bonjour et bienvenue sur ce formulaire</string>
+    <string name="sign_up">Inscription</string>
+    <string name="pouce_en_l_air">pouce en l air</string>
+
+    //EditText
+    <string name="enter_name">Enter your name...</string>
+    <string name="enter_firstname">Enter your first name...</string>
+    //Radio Button
+    <string name="femme">Femme</string>
+    <string name="homme">Homme</string>
+    //Checkbox
+    <string name="checkbox1">C++</string>
+    <string name="checkbox2">JavaScript</string>
+    <string name="checkbox3">Java</string>
+    //ImageView
+    <string name="image_de_profil">pdp</string>
+    //Temps de jeu
+    <string name="time_in_hour" translatable="false">Temps par jour calculé / semaine</string>
+    <string name="nb_hour" translatable="false">Saisissez votre temps de jeu...</string>
+    //Button
+    <string name="reset">Reset</string>
+    <string name="submit">Submit</string>
+    <string name="home">Home</string>
+    //Result layout
+    <string name="ici_tps_jeu">ici tps jeu</string>
+    <string name="ici_checkbox_res_3" translatable="false">ici checkbox res 3</string>
+    <string name="ici_checkbox_res_2" translatable="false">ici checkbox res 2</string>
+    <string name="ici_checkbox_res_1" translatable="false">ici checkbox res 1</string>
+    <string name="ici_radio_button_res" translatable="false">ici radio button res</string>
+    <string name="ici_l_email">ici l email</string>
+    <string name="ici_le_pr_nom">ici le prénom</string>
+    <string name="ici_le_nom">Ici le nom</string>
+</resources>

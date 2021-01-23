@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SEMIVOLOS_Nicolas_Formulaire</string>
+    <string name="chargement">Chargement</string>
+    <string name="desc_splash_screen">Desc splash screen</string>
+    <string name="action_settings">Options</string>
+    <string name="enter_name">Entrez votre nom</string>
+    <string name="enter_firstname">Entrez votre prénom</string>
+    <string name="femme">Femme</string>
+    <string name="homme">Homme</string>
+    <string name="checkbox1">C++</string>
+    <string name="checkbox2">javascript</string>
+    <string name="checkbox3">Java</string>
+    <string name="image_de_profil">pdp</string>
+    <string name="reset">Reset</string>
+    <string name="submit">Submit</string>
+    <string name="home">Acceuil</string>
+    <string name="ici_tps_jeu">ici temps de jeu :</string>
+    <string name="ici_l_email">ici l email</string>
+    <string name="ici_le_pr_nom">ici le prénom</string>
+    <string name="ici_le_nom">ici le nom</string>
+    <string name="sign_up">Inscription</string>
+    <string name="pouce_en_l_air">pouce en l air</string>
+</resources>
