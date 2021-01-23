@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SEMIVOLOS_Nicolas_listes_android</string>
+    <string name="chargement">Chargement</string>
+    <string name="desc_splash_screen">Desc splash screen</string>
+    <string name="desc1">desc1</string>
+</resources>
