@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    //Item list
+    <dimen name="padding">16dp</dimen>
+    <dimen name="itemSpace">8dp</dimen>
+    <dimen name="imgSize">128dp</dimen>
+    <dimen name="spaceInBetween">2dp</dimen>
+
+    //Splash Screen
+    <dimen name="Size_Et_splash">40dp</dimen>
+    <dimen name="textsize_splash">30sp</dimen>
+    <dimen name="marginTop_splash">100dp</dimen>
+    <dimen name="Height_splash">300dp</dimen>
+    <dimen name="marginTop2">60dp</dimen>
+</resources>

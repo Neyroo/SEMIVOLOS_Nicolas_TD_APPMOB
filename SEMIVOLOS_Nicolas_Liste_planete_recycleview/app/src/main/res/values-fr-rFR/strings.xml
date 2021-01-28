@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SEMIVOLOS_Nicolas_Liste_planete_recycleview</string>
+    <string name="imgPlanet">image de planete</string>
+    <string name="desc_splash_screen">desc splash screen</string>
+    <string name="chargement">Chargement ...</string>
+</resources>
