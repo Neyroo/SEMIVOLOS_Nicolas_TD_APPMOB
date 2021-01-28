@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SEMIVOLOS_Nicolas_listes_patisserie</string>
+    //item list
+    <string name="recherche_de_patisserie">Recherche :</string>
+    <string name="image">Image de patisserie</string>
+    <string name="retour">Retour</string>
+    //Splash screen
+    <string name="chargement">Chargement ...</string>
+    <string name="desc_splash_screen">desc splash screen</string>
+</resources>

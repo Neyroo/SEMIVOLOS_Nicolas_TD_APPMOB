@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="nom_patisserie">
+        <item>Forêt Noire</item>
+        <item>Cookie</item>
+        <item>Crêpe</item>
+        <item>Croissant</item>
+        <item>Donut</item>
+        <item>Eclair</item>
+        <item>Macaron</item>
+        <item>Muffin</item>
+        <item>Palmier</item>
+    </string-array>
+
+    <array name="prix_patisserie">
+        <item>15.00</item>
+        <item>0.90</item>
+        <item>3.00</item>
+        <item>0.85</item>
+        <item>1.50</item>
+        <item>2.00</item>
+        <item>5.40</item>
+        <item>2.00</item>
+        <item>1.50</item>
+    </array>
+
+    <string-array name="detail_patisserie"> //simple petite définition wikipédia
+        //forêt-noire
+        <item>La forêt-noire, littéralement « gâteau à la cerise de la Forêt-Noire », est une pâtisserie allemande constituée de génoise au cacao imbibée de kirsch puis fourrée de crème chantilly et de cerises. Elle est recouverte de crème chantilly et décorée de copeaux de chocolat. </item>
+        //cookie
+        <item>Un cookie est un petit biscuit rond, originaire des États-Unis, fait avec des brisures ou pépites de chocolat. </item>
+        //crêpe
+        <item>La crêpe est un mets composé d\'une couche plus ou moins fine de pâte, faite à base de farine (principalement de blé ou de sarrasin) et d\'œufs agglomérés à un liquide (lait, parfois mélangé à de l\'eau ou de la bière). Elle est généralement de forme ronde. </item>
+        //croissant
+        <item>Un croissant est une viennoiserie à base d\'une pâte levée feuilletée spécifique, la pâte à croissant, qui comporte de la levure et une proportion importante de beurre. </item>
+        //donut
+        <item>Donut, littéralement « noix de pâte ». La version la plus courante est de forme torique, à texture dense, souvent couverte d’un glaçage, qui fut popularisée dans les années 1950 par les chaînes de restauration rapide Dunkin’ Donuts et Krispy Kreme. Au Canada, cette pâtisserie est principalement diffusée par la chaîne Tim Hortons.</item>
+        //éclair
+        <item>Un éclair, anciennement appelé pain à la duchesse ou petite duchesse, est une pâtisserie d\'origine française constituée de pâte à choux allongée et fourrée de crème pâtissière, avec un glaçage sur le dessus. </item>
+        //macaron
+        <item>Le macaron est un petit gâteau à l\'amande, granuleux et moelleux, à la forme arrondie, d\'environ 3 à 5 cm de diamètre, dérivé de la meringue.Il est fabriqué à partir d\'amandes concassées, de sucre glace, de sucre et de blancs d\'œufs, la quantité d\'amande devant être égale à la quantité de sucre glace (ce qu\'on appelle le tant pour tant). La pâte ainsi préparée est déposée sur une plaque de four et cuite. Ceci lui donne sa forme particulière d\'une pâte figée et dorée à la cuisson. Le macaron est ensuite fourré avec une ganache dont les goûts peuvent différer. </item>
+        //muffin
+        <item>Les muffins sont de petits gâteaux individuels s\'apparentant aux madeleines. Apparus au pays de Galles aux alentours du XIe siècle, ils sont très répandus dans les pays anglo-saxons, principalement aux États-Unis. Le principe caractéristique de fabrication des muffins consiste à préparer le mélange des ingrédients liquides et celui des ingrédients secs séparément, puis à mélanger rapidement et grossièrement les deux préparations. Contrairement aux cupcakes, les muffins n’ont jamais de glaçage. </item>
+        //palmier
+        <item>Le palmier est une viennoiserie à base de pâte feuilletée, en forme de cœur, largement saupoudrée de sucre qui caramélise à la cuisson. Il est fait d\'une double roulade de pâte coupée en tranches, ce qui lui donne sa forme caractéristique évoquant le feuillage du palmier1.Le palmier existe sous forme de gâteau individuel ou de petit four sec (en accompagnements des glaces et des entremets). En Suisse romande, le palmier est connu sous le nom de Cœur de France. </item>
+    </string-array>
+</resources>
