@@ -23,8 +23,8 @@ public class MainActivity extends AppCompatActivity {
     private RecyclerView.Adapter adapter;
     private RecyclerView.LayoutManager layoutManager;
     private EditText search;
-    private String[] monDataset;
-    private TypedArray mPrixSet;
+    private String[] Data;
+    private TypedArray Prix;
     private Drawable[] mDrawables;
     private String[] mDetail;
     private ArrayList<Patisserie> patisseries;
@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onItemClick(View view, int position) {
-                Toast.makeText(getApplicationContext(),"Patisserie choisie : "+(monDataset[position]).toString(),Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(),"Patisserie choisie : "+(Data[position]).toString(),Toast.LENGTH_SHORT).show();
 
                 Intent intent = new Intent(MainActivity.this,ItemContent.class);
                 intent.putExtra(EXTRA_ITEM,patisseries.get(position));
@@ -83,8 +83,8 @@ public class MainActivity extends AppCompatActivity {
 
     @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     public void init(ArrayList<Patisserie> patisseries) {
-        monDataset = getResources().getStringArray(R.array.nom_patisserie);
-        mPrixSet = getResources().obtainTypedArray(R.array.prix_patisserie);
+        Data = getResources().getStringArray(R.array.nom_patisserie);
+        Prix = getResources().obtainTypedArray(R.array.prix_patisserie);
         mDetail = getResources().getStringArray(R.array.detail_patisserie);
 
         Drawable[] drawables = {
@@ -99,8 +99,8 @@ public class MainActivity extends AppCompatActivity {
                 getDrawable(getResources().getIdentifier("palmier","drawable",getPackageName())),
         };
 
-        for (int i = 0; i < monDataset.length ; i++) {
-            Patisserie patisserie = new Patisserie(i,mPrixSet.getFloat(i,0),drawables[i],monDataset[i],mDetail[i]);
+        for (int i = 0; i < Data.length ; i++) {
+            Patisserie patisserie = new Patisserie(i,Prix.getFloat(i,0),drawables[i],Data[i],mDetail[i]);
             patisseries.add(patisserie);
         }
     }
